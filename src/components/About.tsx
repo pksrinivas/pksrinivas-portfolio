@@ -10,13 +10,13 @@ const About = () => {
     },
     {
       icon: <Lightbulb className="h-6 w-6" />,
-      title: "Innovation",
-      description: "Always exploring new technologies and creative solutions."
+      title: "Automation",
+      description: "Always exploring creative solutions for manual workarounds!. Let the machines do the work!"
     },
     {
       icon: <Users className="h-6 w-6" />,
       title: "Collaboration",
-      description: "Working closely with teams to deliver exceptional results."
+      description: "Working closely with Corss-Functional teams to deliver exceptional results."
     }
   ];
 
@@ -34,17 +34,15 @@ const About = () => {
 <p></p>            
 <p>I specialize in </p>
 <p></p>
-<p>SAP BTP – Cloud Integration (CPI):</p>
-<p>Design and implementation of integration flows for both SAP and non-SAP systems. Hands-on experience with message transformation, error handling, security configurations, and connectivity adapters.</p>
+<p>SAP BTP – Cloud Integration (CPI): Design and implementation of integration flows for both SAP and non-SAP systems. Hands-on experience with message transformation, error handling, security configurations, and connectivity adapters.</p>
 <p></p>
-<p>SAP Process Integration/Process Orchestration (PI/PO):</p>
-<p>Design, migration, and support of A2A and B2B integrations. Transition planning and execution for moving from PI/PO to cloud-based integration.</p>
-<p>Integration Architecture:</p>
-<p>End-to-end integration design including system landscape analysis, middleware selection, performance optimization, and secure data exchange protocols.</p>
-<p>SAP API Management (APIM):</p>
-<p>API lifecycle management, policy implementation, developer portal configuration, and external system integrations with governance and throttling policies.</p>
-<p>SAP Event Mesh:</p>
-<p>Architecture and development of event-driven integrations using asynchronous messaging patterns. Expertise in event enablement of backend systems to promote decoupled and reactive integrations.</p>
+<p>SAP Process Integration/Process Orchestration (PI/PO): Design, migration, and support of A2A and B2B integrations. Transition planning and execution for moving from PI/PO to cloud-based integration.</p>
+<p></p>
+<p>SAP API Management (APIM):API lifecycle management, policy implementation, developer portal configuration, and external system integrations with governance and throttling policies.</p>
+<p></p>
+<p>SAP Event Mesh:Architecture and development of event-driven integrations using asynchronous messaging patterns. Expertise in event enablement of backend systems to promote decoupled and reactive integrations.</p>
+<p></p>
+<p>Integration Architecture:End-to-end integration design including system landscape analysis, middleware selection, performance optimization, and secure data exchange protocols.</p>
             </div>
           </div>
 
