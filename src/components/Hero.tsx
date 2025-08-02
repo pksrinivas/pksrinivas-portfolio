@@ -23,6 +23,10 @@ const Hero = () => {
                 P Kaushik Srinivas
               </span>
               <br />
+              <span className="text-muted-foreground text-xl md:text-2xl font-normal">
+                Senior Consultant
+              </span>
+              <br />
               <span className="text-foreground text-2xl md:text-3xl">
                 SAP BTP-CI, APIM, Event Mesh & SAP PI/PO
               </span>
