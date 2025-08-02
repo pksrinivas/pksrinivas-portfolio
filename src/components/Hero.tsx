@@ -24,7 +24,7 @@ const Hero = () => {
               </span>
               <br />
               <span className="text-muted-foreground text-xl md:text-2xl font-normal">
-                Senior Consultant-Deloitte- USI-Chennai, Tamil Nadu, India
+                Senior Consultant-Deloitte-USI-Chennai, Tamil Nadu, India
               </span>
               <br />
               <span className="text-foreground text-2xl md:text-3xl">
@@ -32,8 +32,8 @@ const Hero = () => {
               </span>
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-              I craft beautiful digital experiences with modern technologies.
-              Turning ideas into elegant, functional solutions.
+              I am a Senior SAP Integration Consultant & Solution Architect with over 7+ years of experience delivering robust, scalable, and future-ready integration solutions. My expertise spans across SAP Business Technology Platform (BTP), particularly in Cloud Integration (CPI), API Management (APIM), and Event Mesh, alongside a strong foundation in SAP PI/PO for hybrid and on-premise landscapes.
+              I specialize in helping enterprises streamline their integration landscapes through modern, cloud-native architectures. My work bridges business processes across SAP S/4HANA, legacy systems, and third-party applications, enabling real-time, secure, and event-driven data flow.
             </p>
           </div>
 
