@@ -1,0 +1,112 @@
+import { Card, CardContent } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
+import { ExternalLink, Github } from "lucide-react";
+
+const Projects = () => {
+  const projects = [
+    {
+      title: "E-Commerce Platform",
+      description: "A full-stack e-commerce solution built with React, Node.js, and Stripe integration. Features include user authentication, shopping cart, and admin dashboard.",
+      tech: ["React", "Node.js", "MongoDB", "Stripe", "Tailwind CSS"],
+      image: "photo-1498050108023-c5249f4df085",
+      liveUrl: "#",
+      githubUrl: "#"
+    },
+    {
+      title: "Task Management App",
+      description: "A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.",
+      tech: ["React", "TypeScript", "Firebase", "Material-UI"],
+      image: "photo-1461749280684-dccba630e2f6",
+      liveUrl: "#",
+      githubUrl: "#"
+    },
+    {
+      title: "Weather Dashboard",
+      description: "A responsive weather dashboard that provides real-time weather data, forecasts, and interactive maps using external APIs.",
+      tech: ["Next.js", "TypeScript", "OpenWeather API", "Chart.js"],
+      image: "photo-1487058792275-0ad4aaf24ca7",
+      liveUrl: "#",
+      githubUrl: "#"
+    },
+    {
+      title: "Portfolio Website",
+      description: "A modern, responsive portfolio website built with React and Tailwind CSS, featuring smooth animations and interactive elements.",
+      tech: ["React", "Tailwind CSS", "Framer Motion", "Vite"],
+      image: "photo-1483058712412-4245e9b90334",
+      liveUrl: "#",
+      githubUrl: "#"
+    }
+  ];
+
+  return (
+    <section id="projects" className="py-20 bg-background">
+      <div className="max-w-6xl mx-auto px-6">
+        <div className="text-center mb-16">
+          <h2 className="text-4xl md:text-5xl font-bold mb-6">
+            Featured <span className="bg-gradient-primary bg-clip-text text-transparent">Projects</span>
+          </h2>
+          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+            A showcase of my recent work and side projects
+          </p>
+        </div>
+
+        <div className="grid md:grid-cols-2 gap-8">
+          {projects.map((project, index) => (
+            <Card 
+              key={index}
+              className="bg-gradient-card border-border hover:shadow-elegant transition-smooth hover:scale-105 overflow-hidden group"
+            >
+              <div className="relative">
+                <img 
+                  src={`https://images.unsplash.com/${project.image}?w=500&h=300&fit=crop`}
+                  alt={project.title}
+                  className="w-full h-48 object-cover group-hover:scale-110 transition-smooth"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent opacity-0 group-hover:opacity-100 transition-smooth" />
+              </div>
+              
+              <CardContent className="p-6">
+                <h3 className="text-2xl font-bold mb-3 text-foreground">
+                  {project.title}
+                </h3>
+                <p className="text-muted-foreground mb-4 leading-relaxed">
+                  {project.description}
+                </p>
+                
+                <div className="flex flex-wrap gap-2 mb-6">
+                  {project.tech.map((tech, techIndex) => (
+                    <span 
+                      key={techIndex}
+                      className="px-3 py-1 bg-muted text-muted-foreground rounded-full text-sm font-medium"
+                    >
+                      {tech}
+                    </span>
+                  ))}
+                </div>
+
+                <div className="flex gap-3">
+                  <Button variant="hero" size="sm" className="flex-1">
+                    <ExternalLink className="h-4 w-4 mr-2" />
+                    Live Demo
+                  </Button>
+                  <Button variant="portfolio" size="sm" className="flex-1">
+                    <Github className="h-4 w-4 mr-2" />
+                    Code
+                  </Button>
+                </div>
+              </CardContent>
+            </Card>
+          ))}
+        </div>
+
+        <div className="text-center mt-12">
+          <Button variant="portfolio" size="lg">
+            View All Projects
+          </Button>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Projects;
