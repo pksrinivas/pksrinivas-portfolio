@@ -30,24 +30,18 @@ const About = () => {
               About <span className="bg-gradient-primary bg-clip-text text-transparent">Me</span>
             </h2>
             <div className="space-y-4 text-muted-foreground text-lg leading-relaxed">
-              <p>
-I am a Senior SAP Integration Consultant & Solution Architect with over 7+ years of experience delivering robust, scalable, and future-ready integration solutions. My expertise spans across SAP Business Technology Platform (BTP), particularly in Cloud Integration (CPI), API Management (APIM), and Event Mesh, alongside a strong foundation in SAP PI/PO for hybrid and on-premise landscapes. 
-              </p>
-              <p>
-                I specialize in 
-SAP BTP – Cloud Integration (CPI):
-Design and implementation of integration flows for both SAP and non-SAP systems. Hands-on experience with message transformation, error handling, security configurations, and connectivity adapters.
-SAP Process Integration/Process Orchestration (PI/PO):
-Design, migration, and support of A2A and B2B integrations. Transition planning and execution for moving from PI/PO to cloud-based integration.
-Integration Architecture:
-End-to-end integration design including system landscape analysis, middleware selection, performance optimization, and secure data exchange protocols.
-           </p>
-              <p>
-SAP API Management (APIM):
-API lifecycle management, policy implementation, developer portal configuration, and external system integrations with governance and throttling policies.
-SAP Event Mesh:
-Architecture and development of event-driven integrations using asynchronous messaging patterns. Expertise in event enablement of backend systems to promote decoupled and reactive integrations.
-              </p>
+<p>I am a Senior SAP Integration Consultant & Solution Architect with over 7+ years of experience delivering robust, scalable, and future-ready integration solutions. My expertise spans across SAP Business Technology Platform (BTP), particularly in Cloud Integration (CPI), API Management (APIM), and Event Mesh, alongside a strong foundation in SAP PI/PO for hybrid and on-premise landscapes.</p>
+<p>I specialize in </p>
+<p>SAP BTP – Cloud Integration (CPI):</p>
+<p>Design and implementation of integration flows for both SAP and non-SAP systems. Hands-on experience with message transformation, error handling, security configurations, and connectivity adapters.</p>
+<p>SAP Process Integration/Process Orchestration (PI/PO):</p>
+<p>Design, migration, and support of A2A and B2B integrations. Transition planning and execution for moving from PI/PO to cloud-based integration.</p>
+<p>Integration Architecture:</p>
+<p>End-to-end integration design including system landscape analysis, middleware selection, performance optimization, and secure data exchange protocols.</p>
+<p>SAP API Management (APIM):</p>
+<p>API lifecycle management, policy implementation, developer portal configuration, and external system integrations with governance and throttling policies.</p>
+<p>SAP Event Mesh:</p>
+<p>Architecture and development of event-driven integrations using asynchronous messaging patterns. Expertise in event enablement of backend systems to promote decoupled and reactive integrations.</p>
             </div>
           </div>
 
