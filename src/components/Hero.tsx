@@ -24,7 +24,7 @@ const Hero = () => {
               </span>
               <br />
               <span className="text-muted-foreground text-xl md:text-2xl font-normal">
-                Senior Consultant-Deloitte, Office of the US, India-Chennai, Tamil Nadu, India
+                Senior Consultant-Deloitte- USI-Chennai, Tamil Nadu, India
               </span>
               <br />
               <span className="text-foreground text-2xl md:text-3xl">
