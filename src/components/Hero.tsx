@@ -24,11 +24,7 @@ const Hero = () => {
               </span>
               <br />
               <span className="text-foreground text-2xl md:text-3xl">
-                Senior Consultant-Integration-SAP CPI/PI/PO/APIM/EventMesh
-              </span>
-              <br />
-              <span className="text-muted-foreground text-xl md:text-2xl font-normal">
-                Deloitte-Office of the US, India
+                SAP BTP-CI, APIM, Event Mesh & SAP PI/PO
               </span>
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
