@@ -31,16 +31,26 @@ const About = () => {
             </h2>
             <div className="space-y-4 text-muted-foreground text-lg leading-relaxed">
               <p>
-                I'm a passionate full-stack developer with 5+ years of experience 
-                creating digital solutions that make a difference. My journey started 
-                with curiosity about how things work on the web, and it has evolved 
-                into a career of building beautiful, functional applications.
+I am a Senior SAP Integration Consultant & Solution Architect with over 7+ years of experience delivering robust, scalable, and future-ready integration solutions. My expertise spans across SAP Business Technology Platform (BTP), particularly in Cloud Integration (CPI), API Management (APIM), and Event Mesh, alongside a strong foundation in SAP PI/PO for hybrid and on-premise landscapes. 
               </p>
               <p>
-                I specialize in React, TypeScript, and modern web technologies. 
-                I believe in writing clean, maintainable code and creating user 
-                experiences that are both intuitive and delightful.
-              </p>
+                I specialize in 
+SAP BTP – Cloud Integration (CPI):
+Design and implementation of integration flows for both SAP and non-SAP systems. Hands-on experience with message transformation, error handling, security configurations, and connectivity adapters.
+
+SAP API Management (APIM):
+API lifecycle management, policy implementation, developer portal configuration, and external system integrations with governance and throttling policies.
+
+SAP Event Mesh:
+Architecture and development of event-driven integrations using asynchronous messaging patterns. Expertise in event enablement of backend systems to promote decoupled and reactive integrations.
+
+SAP Process Integration/Process Orchestration (PI/PO):
+Design, migration, and support of A2A and B2B integrations. Transition planning and execution for moving from PI/PO to cloud-based integration.
+
+Integration Architecture:
+End-to-end integration design including system landscape analysis, middleware selection, performance optimization, and secure data exchange protocols.
+
+           </p>
               <p>
                 When I'm not coding, you'll find me exploring new technologies, 
                 contributing to open source projects, or sharing knowledge with 
