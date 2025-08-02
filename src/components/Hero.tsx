@@ -18,12 +18,18 @@ const Hero = () => {
         <div className="text-center">
           {/* Main Content */}
           <div className="mb-8">
-            <h1 className="text-5xl md:text-7xl font-bold mb-6">
+            <h1 className="text-4xl md:text-6xl font-bold mb-6">
               <span className="bg-gradient-primary bg-clip-text text-transparent">
-                Creative
+                P Kaushik Srinivas
               </span>
               <br />
-              <span className="text-foreground">Developer</span>
+              <span className="text-foreground text-2xl md:text-3xl">
+                Senior Consultant-Integration-SAP CPI/PI/PO/APIM/EventMesh
+              </span>
+              <br />
+              <span className="text-muted-foreground text-xl md:text-2xl font-normal">
+                Deloitte-Office of the US, India
+              </span>
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
               I craft beautiful digital experiences with modern technologies.
