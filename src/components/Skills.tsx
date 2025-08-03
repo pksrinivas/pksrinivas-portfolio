@@ -3,33 +3,28 @@ import { Card, CardContent } from "@/components/ui/card";
 const Skills = () => {
   const skillCategories = [
     {
-      title: "Frontend",
+      title: "SAP",
       skills: [
-        { name: "React", level: 95 },
-        { name: "TypeScript", level: 90 },
-        { name: "Next.js", level: 85 },
-        { name: "Tailwind CSS", level: 92 },
-        { name: "JavaScript", level: 95 }
+        { name: "Cloud Integration", level: 80 },
+        { name: "API-M", level: 75 },
+        { name: "Event Mesh", level: 90 },
+        { name: "PI/PO", level: 90 },
       ]
     },
     {
-      title: "Backend",
+      title: "Non-SAP",
       skills: [
-        { name: "Node.js", level: 88 },
-        { name: "Python", level: 82 },
-        { name: "PostgreSQL", level: 85 },
-        { name: "MongoDB", level: 80 },
-        { name: "GraphQL", level: 75 }
+        { name: "Microsoft Azure Data Factory", level: 70 },
+        { name: "IBM MQFTE", level: 70 },
       ]
     },
     {
-      title: "Tools & Others",
+      title: "Tools & Programming",
       skills: [
-        { name: "Git", level: 95 },
-        { name: "Docker", level: 80 },
-        { name: "AWS", level: 75 },
-        { name: "Figma", level: 85 },
-        { name: "Jest", level: 82 }
+        { name: "Postman/SOAP UI", level: 90 },
+        { name: "Groovy", level: 90 },
+        { name: "Java", level: 85 },
+        { name: "Python", level: 60 },
       ]
     }
   ];
