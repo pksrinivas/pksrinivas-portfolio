@@ -27,11 +27,18 @@ const Projects = () => {
       liveUrl: "https://community.sap.com/t5/technology-blog-posts-by-members/cpi-convert-flat-file-to-xml-with-field-fixed-lengths-groovy/ba-p/13562845"
     },
     {
-      title: "Portfolio Website",
-      description: "A modern, responsive portfolio website built with React and Tailwind CSS, featuring smooth animations and interactive elements.",
-      tech: ["React", "Tailwind CSS", "Framer Motion", "Vite"],
-      image: "photo-1483058712412-4245e9b90334",
-      liveUrl: "#"
+      title: "CPI-Aggregator Use Case-Create separate messages per unique Company Code",
+      description: "This blog covers an idea on how we can put CPI Aggregator to use for clubbing payloads having a similar value and creating separate files for them.",
+      tech: ["SAP CPI", "SAP-BTP-IS", "Aggregator"],
+      image: "photo-1551288049-bebda4e38f71",
+      liveUrl: "https://community.sap.com/t5/technology-blog-posts-by-members/cpi-aggregator-use-case-create-separate-messages-per-unique-company-code/ba-p/13568421"
+    },
+    {
+      title: "PI/PO | IDOC not reaching PI/PO from SAP S4 HANA | Commit Fault Error in SM58 due to special characters in IDOC segments",
+      description: "This blog covers an additional analysis on SM58-Commit Fault Error occurring when an IDOC is triggered from SAP S4 HANA and does not reach PI/PO system.",
+      tech: ["SAP PI/PO", "SAP S4 HANA", "IDOC"],
+      image: "photo-1560472354-b33ff0c44a43",
+      liveUrl: "https://community.sap.com/t5/technology-blog-posts-by-members/idoc-not-reaching-pi-po-from-sap-s4-hana-commit-fault-error-in-sm58-due-to/ba-p/13540462"
     }
   ];
 

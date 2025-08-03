@@ -14,47 +14,34 @@ const WorkExperience = () => {
           domain: "Pulp and Paper",
           client: "One of the world's largest manufacturers and distributors of pulp, paper, packaging, building products and related chemicals.",
           responsibilities: [
-            "Working on SAP BTP-Integration Suite (CPI, APIM), Event Mesh implementation project to set up integration between SAP S4 HANA and 3rd party systems (Sfdc, Sfmc, P44, MES, Bloomberg etc.)",
-            "Worked on project planning from scratch ranging from creating integration strategy documents, transport strategy documents to naming convention documentations etc.",
-            "Worked extensively on CPI-S4 initial setups viz. IDoc, Proxy-inbound/outbound, JDBC Connectivity setups, SPRO configs. for Event Mesh etc.",
-            "Worked on doing POCs on triggering Data and Notification events from SAP S4 to Event mesh topics.",
-            "Worked on designing and implementing a Generic Error handling mechanism to be used across all iflows.",
-            "Proficient in Groovy scripting.",
-            "CPI Adapters worked upon : SFTP, Process Direct, OData, IDoc, JDBC, Sfdc, Https"
+            "SAP BTP-Integration Suite (CPI, APIM), Event Mesh implementation for SAP S4 HANA and 3rd party systems integration",
+            "Project planning including integration strategy, transport strategy and naming convention documentation",
+            "CPI-S4 initial setups: IDoc, Proxy-inbound/outbound, JDBC Connectivity, SPRO configs for Event Mesh",
+            "Generic Error handling mechanism design and implementation for iflows",
+            "Proficient in Groovy scripting and various CPI Adapters (SFTP, Process Direct, OData, IDoc, JDBC, Sfdc, Https)"
           ]
         },
         {
           domain: "Healthcare",
           client: "A global provider of diagnostics, medical devices, nutrition and branded generic pharmaceuticals.",
           responsibilities: [
-            "Worked on CPI implementation project to set up integration between SAP S4 HANA and 3rd party systems",
-            "Worked on the initial CPI setup to receive and route IDOCs/Proxy through a common iflow",
-            "Design, Build, test iFlows for on-prem to cloud integrations",
-            "Co-ordination with cross-functional team to analyze Functional specs and technical solution design",
-            "Worked to design and setup CPI Error retry handling iflows",
-            "Worked on integrating CPI with JDNET, MDNET for Japan region",
-            "Proficient in Groovy scripting for Field Fixed Lengths handling, encodings etc. for CPI",
-            "Proficient in use of Content Modifiers, Splitter, Router, Aggregator etc.",
-            "Mentored and trained peers on CPI",
-            "CPI Adapters worked upon : SFTP, Process Direct, OData, IDoc"
+            "CPI implementation for SAP S4 HANA and 3rd party systems integration",
+            "CPI setup for IDOCs/Proxy routing and on-prem to cloud integrations",
+            "CPI Error retry handling and integration with JDNET, MDNET for Japan region",
+            "Groovy scripting for Field Fixed Lengths handling and Content Modifiers/Splitter/Router/Aggregator",
+            "Team mentoring and training on CPI"
           ]
         },
         {
           domain: "Food, Animal Nutrition, Agricultural Supply Chain, Metals/Industrial and Process Manufacturing",
           client: "One of the largest private companies in the world with four main operating divisions including agriculture, animal nutrition and protein, food, and financial and industrial services.",
           responsibilities: [
-            "Worked on setting up SAP PO interfacing for S4 HANA implementation project. Worked on design and build A2A, B2B integrations from Development till Production deployment",
-            "Worked on effort estimations, technical developments, UAT upto PGLS",
-            "Working in a client facing role which involves requirement gathering and co-ordination with different cross functional teams across geographies.",
-            "Interface Design, Build, Test, PGLS for integrating SAP and Mexico govt.",
-            "Worked on integrating SAP and Vietnam govt. for electronic invoicing",
-            "Worked on integrating SAP with EDI carriers for TM integration for APAC, EMEA, NA regions",
-            "Worked on integration with Datahub platform using PO custom Apache Pulsar adapter",
-            "Worked on SAP S4 HANA upgrade project to set up PI/PO integration with new SAP system from scratch",
-            "Worked on Configuration of PI-Basis functions like setting up of RFC Destinations, Port and Partner Profiles",
-            "Worked on Custom Adapter Module development from NWDS setup to custom module development",
-            "Worked and mentored peers to handle Change Requests which arise post PGLS",
-            "SAP PO Adapters worked on : IDOC, JMS, SOAP, File, SFTP, Apache Pulsar (Custom Adapter)"
+            "SAP PO interfacing for S4 HANA implementation: A2A, B2B integrations from Development to Production",
+            "Client-facing role for requirement gathering and cross-functional team coordination",
+            "Government integrations: SAP-Mexico govt. and SAP-Vietnam govt. for electronic invoicing",
+            "SAP-EDI carriers integration for TM across APAC, EMEA, NA regions",
+            "Custom Adapter Module development and PI-Basis configuration",
+            "SAP S4 HANA upgrade project and Change Request handling post-PGLS"
           ]
         }
       ]
@@ -69,18 +56,12 @@ const WorkExperience = () => {
           domain: "Chemical/Manufacturing",
           client: "A global provider of titanium technologies, fluoroproducts and chemical solutions, with ingredients found in plastics and coatings, refrigeration and air conditioning, and general industrial manufacturing.",
           responsibilities: [
-            "Technical development, support, Operations and solutioning in SAP PI and Microsoft Azure Data Factory",
-            "Worked on other cross integration platforms apart from SAP PI viz. Microsoft Azure Data Factory, IBM MQFTE, IBM Data Power etc.",
-            "IBM MQ-FTE to SAP PI Refactoring–Worked on middleware landscape redesign to migrate 200+ interfaces",
-            "Vroozi Purchase Manager-SAP PI integration–lead end to end development",
-            "IBM Cast Iron to SAP PI Refactoring for SAP PI 7.4-SFDC integration",
-            "SAP PI 7.1 to 7.4–Migration Project",
-            "SAP PI Monitoring Automation-Successfully implemented Automations for SAP PI manual monitoring & Automatic error reporting",
-            "SAP PI Adapters worked on : IDOC, RFC, JMS, SOAP, JDBC, File, HTTP, SFTP, Ariba adapters",
-            "Custom Adapter Module development, UDFs, SOAP lookup, Configuration, Design Changes, enhancements in PI",
-            "Development of pipeline flows in Ms Azure Data Factory",
-            "Conducted full Knowledge Transfer sessions on SAP PI interfaces",
-            "Integration Platforms worked on: SAP PI(Dual Stack), Microsoft Azure Data Factory, IBM MQ-FTE"
+            "Technical development and operations in SAP PI and Microsoft Azure Data Factory",
+            "Middleware landscape redesign: IBM MQ-FTE to SAP PI migration (200+ interfaces)",
+            "Vroozi Purchase Manager-SAP PI integration and IBM Cast Iron to SAP PI refactoring",
+            "SAP PI 7.1 to 7.4 migration and monitoring automation implementation",
+            "Custom Adapter Module development and Azure Data Factory pipeline development",
+            "Knowledge Transfer sessions and multi-platform integration (SAP PI, Azure Data Factory, IBM MQ-FTE)"
           ]
         }
       ]

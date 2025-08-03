@@ -33,9 +33,6 @@ const Navigation = () => {
                 {link.label}
               </a>
             ))}
-            <Button variant="hero" size="sm">
-              Hire Me
-            </Button>
           </div>
 
           {/* Mobile Menu Button */}
@@ -63,9 +60,6 @@ const Navigation = () => {
                   {link.label}
                 </a>
               ))}
-              <Button variant="hero" size="sm" className="w-fit">
-                Hire Me
-              </Button>
             </div>
           </div>
         )}
