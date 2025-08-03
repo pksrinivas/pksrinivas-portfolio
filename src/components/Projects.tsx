@@ -5,8 +5,8 @@ import { ExternalLink, Github } from "lucide-react";
 const Projects = () => {
   const projects = [
     {
-      title: "API-M | API-M-S4 OData call-CSRF Token validation failed despite passing apt Authorization, Cookies",
-      description: "Very often we come across requirements wherein 3rd party applications post the data to S4 Hana OData in backend through SAP API Management. The implementation for the same have been discussed in multiple SAP Blogs by many authors. However we came across one such peculiar scenario wherein there are multiple layers between the call made by API-M to S4 Hana OData, due to which in spite of passing apt Authorization and Cookie parameters, request was still failing with "CSRF Token Validation failed".",
+      title: "API-M to S4 OData call - CSRF Token validation failed despite passing apt Authorization and Cookies",
+      description: "Very often we come across requirements wherein 3rd party applications post the data to S4 Hana OData in backend through SAP API Management. The implementation for the same have been discussed in multiple SAP Blogs by many authors. However we came across one such peculiar scenario wherein there are multiple layers between the call made by API-M to S4 Hana OData, due to which in spite of passing apt Authorization and Cookie parameters, request was still failing with 'CSRF Token Validation failed'.",
       tech: ["SAP API-M", "SAP BTP-IS"],
       image: "photo-1498050108023-c5249f4df085",
       liveUrl: "https://community.sap.com/t5/technology-blog-posts-by-members/api-m-api-m-s4-odata-call-csrf-token-validation-failed-despite-passing-apt/ba-p/13976873"
