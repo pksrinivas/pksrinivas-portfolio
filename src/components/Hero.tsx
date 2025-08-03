@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { ArrowDown, Github, Linkedin, Mail } from "lucide-react";
+import { ArrowDown, Linkedin, Mail } from "lucide-react";
 import heroImage from "@/assets/hero-image.jpg";
 
 const Hero = () => {
@@ -45,9 +45,6 @@ const Hero = () => {
 
           {/* Social Links */}
           <div className="flex justify-center space-x-6 mb-12">
-            <Button variant="ghost" size="icon" className="hover:scale-110 transition-bounce">
-              <Github className="h-5 w-5" />
-            </Button>
             <Button variant="ghost" size="icon" className="hover:scale-110 transition-bounce">
               <Linkedin className="h-5 w-5" />
             </Button>
