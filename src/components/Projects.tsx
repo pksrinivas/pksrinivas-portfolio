@@ -5,28 +5,25 @@ import { ExternalLink, Github } from "lucide-react";
 const Projects = () => {
   const projects = [
     {
-      title: "E-Commerce Platform",
-      description: "A full-stack e-commerce solution built with React, Node.js, and Stripe integration. Features include user authentication, shopping cart, and admin dashboard.",
-      tech: ["React", "Node.js", "MongoDB", "Stripe", "Tailwind CSS"],
+      title: "API-M | API-M-S4 OData call-CSRF Token validation failed despite passing apt Authorization, Cookies",
+      description: "Very often we come across requirements wherein 3rd party applications post the data to S4 Hana OData in backend through SAP API Management. The implementation for the same have been discussed in multiple SAP Blogs by many authors. However we came across one such peculiar scenario wherein there are multiple layers between the call made by API-M to S4 Hana OData, due to which in spite of passing apt Authorization and Cookie parameters, request was still failing with "CSRF Token Validation failed".",
+      tech: ["SAP API-M", "SAP BTP-IS"],
       image: "photo-1498050108023-c5249f4df085",
-      liveUrl: "#",
-      githubUrl: "#"
+      liveUrl: "https://community.sap.com/t5/technology-blog-posts-by-members/api-m-api-m-s4-odata-call-csrf-token-validation-failed-despite-passing-apt/ba-p/13976873"
     },
     {
-      title: "Task Management App",
-      description: "A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.",
-      tech: ["React", "TypeScript", "Firebase", "Material-UI"],
+      title: "CPI-Convert deep nested specified JSON elements to double or boolean data types | Groovy",
+      description: "This blog covers a groovy script for converting deep nested JSON elements from string to double or boolean data types. In some cases some requirements may arise wherein some specific fields of a JSON are not accepted in string format by the target system and only double or numeric values are accepted. The below groovy covers such requirements.",
+      tech: ["SAP CPI", "SAP-BTP-IS", "Groovy"],
       image: "photo-1461749280684-dccba630e2f6",
-      liveUrl: "#",
-      githubUrl: "#"
+      liveUrl: "https://community.sap.com/t5/technology-blog-posts-by-members/cpi-convert-deep-nested-specified-json-elements-to-double-or-boolean-data/ba-p/13578270"
     },
     {
-      title: "Weather Dashboard",
-      description: "A responsive weather dashboard that provides real-time weather data, forecasts, and interactive maps using external APIs.",
-      tech: ["Next.js", "TypeScript", "OpenWeather API", "Chart.js"],
+      title: "CPI-Convert Flat File to XML with Field Fixed Lengths | Groovy",
+      description: "This blog covers an idea on how we can convert a Flat File to dynamic XML structure with Field Fixed Lengths in CPI using groovy script.",
+      tech: ["SAP CPI", "SAP-BTP-IS", "Groovy"],
       image: "photo-1487058792275-0ad4aaf24ca7",
-      liveUrl: "#",
-      githubUrl: "#"
+      liveUrl: "https://community.sap.com/t5/technology-blog-posts-by-members/cpi-convert-flat-file-to-xml-with-field-fixed-lengths-groovy/ba-p/13562845"
     },
     {
       title: "Portfolio Website",
