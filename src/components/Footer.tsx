@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Github, Linkedin, Mail, Twitter } from "lucide-react";
+import {Linkedin, Mail} from "lucide-react";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -16,13 +16,7 @@ const Footer = () => {
           {/* Social Links */}
           <div className="flex justify-center space-x-4 mb-8">
             <Button variant="ghost" size="icon" className="hover:scale-110 transition-bounce">
-              <Github className="h-5 w-5" />
-            </Button>
-            <Button variant="ghost" size="icon" className="hover:scale-110 transition-bounce">
               <Linkedin className="h-5 w-5" />
-            </Button>
-            <Button variant="ghost" size="icon" className="hover:scale-110 transition-bounce">
-              <Twitter className="h-5 w-5" />
             </Button>
             <Button variant="ghost" size="icon" className="hover:scale-110 transition-bounce">
               <Mail className="h-5 w-5" />
@@ -40,7 +34,7 @@ const Footer = () => {
           {/* Copyright */}
           <div className="pt-8 border-t border-border">
             <p className="text-muted-foreground">
-              © {currentYear} Portfolio. Built with React & Tailwind CSS.
+              © {currentYear} Portfolio. Built with AI.
             </p>
           </div>
         </div>
