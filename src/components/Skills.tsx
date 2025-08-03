@@ -1,4 +1,6 @@
+
 import { Card, CardContent } from "@/components/ui/card";
+import { Award } from "lucide-react";
 
 const Skills = () => {
   const skillCategories = [
@@ -29,47 +31,82 @@ const Skills = () => {
     }
   ];
 
+  const certifications = [
+    "SAP BTP Solution Architect",
+    "SAP Integration Suite Associate Developer", 
+    "Python Programming-Indian Institute of Technology, Madras"
+  ];
+
   return (
     <section id="skills" className="py-20 bg-gradient-hero">
       <div className="max-w-6xl mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            Skills & <span className="bg-gradient-primary bg-clip-text text-transparent">Expertise</span>
+            Skills and <span className="bg-gradient-primary bg-clip-text text-transparent">Certifications</span>
           </h2>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Technologies and tools I use to bring ideas to life
-          </p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8">
-          {skillCategories.map((category, index) => (
-            <Card 
-              key={index}
-              className="bg-gradient-card border-border hover:shadow-elegant transition-smooth hover:scale-105"
-            >
-              <CardContent className="p-6">
-                <h3 className="text-2xl font-bold mb-6 text-center bg-gradient-primary bg-clip-text text-transparent">
-                  {category.title}
-                </h3>
-                <div className="space-y-4">
-                  {category.skills.map((skill, skillIndex) => (
-                    <div key={skillIndex}>
-                      <div className="flex justify-between mb-2">
-                        <span className="text-foreground font-medium">{skill.name}</span>
-                        <span className="text-muted-foreground">{skill.level}%</span>
+        <div className="grid md:grid-cols-2 gap-12">
+          {/* Skills Section */}
+          <div>
+            <h3 className="text-3xl font-bold mb-8 text-center">Skills</h3>
+            <div className="grid gap-6">
+              {skillCategories.map((category, index) => (
+                <Card 
+                  key={index}
+                  className="bg-gradient-card border-border hover:shadow-elegant transition-smooth hover:scale-105"
+                >
+                  <CardContent className="p-6">
+                    <h4 className="text-xl font-bold mb-4 text-center bg-gradient-primary bg-clip-text text-transparent">
+                      {category.title}
+                    </h4>
+                    <div className="space-y-3">
+                      {category.skills.map((skill, skillIndex) => (
+                        <div key={skillIndex}>
+                          <div className="flex justify-between mb-2">
+                            <span className="text-foreground font-medium">{skill.name}</span>
+                            <span className="text-muted-foreground">{skill.level}%</span>
+                          </div>
+                          <div className="h-2 bg-muted rounded-full overflow-hidden">
+                            <div 
+                              className="h-full bg-gradient-primary transition-all duration-1000 ease-out"
+                              style={{ width: `${skill.level}%` }}
+                            />
+                          </div>
+                        </div>
+                      ))}
+                    </div>
+                  </CardContent>
+                </Card>
+              ))}
+            </div>
+          </div>
+
+          {/* Certifications Section */}
+          <div>
+            <h3 className="text-3xl font-bold mb-8 text-center">Certifications</h3>
+            <div className="space-y-6">
+              {certifications.map((cert, index) => (
+                <Card 
+                  key={index}
+                  className="bg-gradient-card border-border hover:shadow-elegant transition-smooth hover:scale-105"
+                >
+                  <CardContent className="p-6">
+                    <div className="flex items-start space-x-4">
+                      <div className="p-3 bg-gradient-primary rounded-lg text-primary-foreground">
+                        <Award className="h-6 w-6" />
                       </div>
-                      <div className="h-2 bg-muted rounded-full overflow-hidden">
-                        <div 
-                          className="h-full bg-gradient-primary transition-all duration-1000 ease-out"
-                          style={{ width: `${skill.level}%` }}
-                        />
+                      <div className="flex-1">
+                        <h4 className="text-lg font-semibold text-foreground leading-relaxed">
+                          {cert}
+                        </h4>
                       </div>
                     </div>
-                  ))}
-                </div>
-              </CardContent>
-            </Card>
-          ))}
+                  </CardContent>
+                </Card>
+              ))}
+            </div>
+          </div>
         </div>
       </div>
     </section>

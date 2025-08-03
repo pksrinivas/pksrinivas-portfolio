@@ -1,3 +1,4 @@
+
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
@@ -8,7 +9,8 @@ const Navigation = () => {
   const navLinks = [
     { href: "#about", label: "About" },
     { href: "#skills", label: "Skills" },
-    { href: "#projects", label: "Projects" },
+    { href: "#experience", label: "Work Experience" },
+    { href: "#projects", label: "Featured Blogs" },
     { href: "#contact", label: "Contact" },
   ];
 

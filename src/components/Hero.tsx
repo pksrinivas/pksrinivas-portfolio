@@ -1,8 +1,21 @@
+
 import { Button } from "@/components/ui/button";
 import { ArrowDown, Linkedin, Mail } from "lucide-react";
 import heroImage from "@/assets/hero-image.jpg";
 
 const Hero = () => {
+  const handleDownloadCV = () => {
+    window.open('https://docs.google.com/document/d/10eRhwVHWFuyPRz4N625B9lAogv9fGS_p/edit?usp=sharing&ouid=114684958661659647086&rtpof=true&sd=true', '_blank');
+  };
+
+  const handleLinkedInClick = () => {
+    window.open('https://www.linkedin.com/in/pkaushiksrinivas122/', '_blank');
+  };
+
+  const handleEmailClick = () => {
+    window.location.href = 'mailto:pksrinivas2014@gmail.com';
+  };
+
   return (
     <section className="min-h-screen flex items-center justify-center bg-gradient-hero relative overflow-hidden">
       {/* Background Image */}
@@ -24,7 +37,7 @@ const Hero = () => {
               </span>
               <br />
               <span className="text-muted-foreground text-xl md:text-2xl font-normal">
-                Senior Consultant-Deloitte- USI-Chennai, Tamil Nadu, India
+                Senior Consultant-Deloitte USI-Chennai, Tamil Nadu, India
               </span>
               <br />
               <span className="text-foreground text-2xl md:text-3xl">
@@ -38,17 +51,17 @@ const Hero = () => {
             <Button variant="hero" size="lg" className="text-lg px-8">
               View My Work
             </Button>
-            <Button variant="portfolio" size="lg" className="text-lg px-8">
+            <Button variant="portfolio" size="lg" className="text-lg px-8" onClick={handleDownloadCV}>
               Download CV
             </Button>
           </div>
 
           {/* Social Links */}
           <div className="flex justify-center space-x-6 mb-12">
-            <Button variant="ghost" size="icon" className="hover:scale-110 transition-bounce">
+            <Button variant="ghost" size="icon" className="hover:scale-110 transition-bounce" onClick={handleLinkedInClick}>
               <Linkedin className="h-5 w-5" />
             </Button>
-            <Button variant="ghost" size="icon" className="hover:scale-110 transition-bounce">
+            <Button variant="ghost" size="icon" className="hover:scale-110 transition-bounce" onClick={handleEmailClick}>
               <Mail className="h-5 w-5" />
             </Button>
           </div>
