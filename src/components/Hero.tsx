@@ -48,8 +48,8 @@ const Hero = () => {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-            <Button variant="hero" size="lg" className="text-lg px-8">
-              View My Work
+            <Button variant="hero" size="lg" className="text-lg px-8" asChild>
+              <a href="#experience">View My Work</a>
             </Button>
             <Button variant="portfolio" size="lg" className="text-lg px-8" onClick={handleDownloadCV}>
               Download CV
