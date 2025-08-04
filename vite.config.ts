@@ -20,4 +20,8 @@ export default defineConfig(({ mode }) => ({
       "@": path.resolve(__dirname, "./src"),
     },
   },
+  build: {
+    outDir: "docs", // 👈 THIS IS MANDATORY FOR GITHUB PAGES
+    emptyOutDir: true,
+  },
 }));
