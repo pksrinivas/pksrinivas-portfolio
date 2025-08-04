@@ -44,7 +44,7 @@ const Footer = () => {
           {/* Copyright */}
           <div className="pt-8 border-t border-border">
             <p className="text-muted-foreground">
-              © {currentYear} Portfolio. Built with AI.
+              © {currentYear} Portfolio. P Kaushik Srinivas. Powered by AI
             </p>
           </div>
         </div>
