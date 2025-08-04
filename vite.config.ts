@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react-swc'
 import path from 'path'
 
 export default defineConfig({
-  base: '/pksrinivas-portfolio/', 
+  base: mode === 'production' ? '/pksrinivas-portfolio/' : '/',
   plugins: [react()],
   resolve: {
     alias: {
